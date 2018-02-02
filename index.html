@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112293218-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-112293218-1');
+    </script>
+
+    <meta charset=utf-8 />
+    <title>Alcohol Units</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel=”apple-touch-icon-precomposed” href=”/apple-touch-icon.png”/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+
+  </head>
+  <body>
+
+<div id="navbar"><img src="images/logo.png" tabindex="0" alt="Alcohol Units logo. The fire safety label for ethanol.
+  A diamond that consists of four color-coded fields: blue, red, yellow, and white.">
+  <span id="business-name" tabindex="0">Alcohol Units</span></div>
+
+<hr>
+
+<p class="highlight" tabindex="0">💡 Enter the volume and alcohol % of a drink to see how much alcohol is in it.</p>
+
+<div id="calculator-box">
+
+  <form>
+
+    <label for="volumeNum">Vol:</label>
+    <input autofocus="autofocus" type="number" id="volumeNum" placeholder="Enter volume">
+
+
+
+    <label for="volumeUnit" aria-label="Unit:"></label>
+    <select id="volumeUnit">
+        <option value="oz">oz</option>
+        <option value="ml">ml</option>
+        <option value="cl">cl</option>
+    </select><br>
+
+    <div id="grav-num">
+      <label for="gravityNum">ABV:</label>
+      <input type="number" id="gravityNum" placeholder="Enter alcohol % (abv)">
+    </div>
+
+    <div id="calc-button">
+      <input type="button" id="calculate-button" value="Calculate">
+
+      <div id="result-box" tabindex="0">
+        <p id="standard-drinks"></p>
+        <p id="units-of-alcohol"></p>
+        <p id="grams-of-alcohol"></p>
+      </div>
+
+    </form>
+  </div>
+
+<br>
+<div id="footer">
+<br>
+<span class="footer" tabindex="0"<p>©<span id="currentYear"></span> Stop {👃🌹} Inc. All Rights Reserved.</p></span>
+</div>
+<script src="app.js" charset="utf-8"></script>
+</body>
+</html>
+
+    <script src="app.js" charset="utf-8"></script>
+  </body>
+</html>
