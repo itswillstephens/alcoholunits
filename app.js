@@ -72,14 +72,3 @@ function calculateGramsOfAlcohol() {
     document.getElementById("grams-of-alcohol").innerHTML = clGrams + " grams of alcohol";
   }
 }
-
-// footer
-
-function setCopyrightDate(){
-  year=new Date().getYear();
-  if (year<1900)
-    year+=1900;
-  document.getElementById("currentYear").innerHTML = " " + year;
-}
-
-setCopyrightDate();

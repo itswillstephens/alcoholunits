@@ -46,15 +46,14 @@ hr {
   background-color: rgb(255, 255, 204);
   color: black;
   width: 90%;
-  margin: auto;
-  margin-top: 5px;
+  margin: 20px 10px 10px 10px;
   padding: 10px;
   font-size: 1em;
   line-height: 1;
 }
 
 #calculator-box {
-
+  margin-top: 10px;
 }
 
 #volumeUnit {
@@ -101,10 +100,14 @@ hr {
   text-decoration: none;
   display: inline-block;
   width: 85%;
-  margin: 7px;
+  margin: 15px;
   float: center;
   -webkit-appearance: none;
   cursor: pointer;
+}
+
+#explanation {
+  margin: 15px;
 }
 
 #result-box {
@@ -134,10 +137,3 @@ hr {
   padding: 5px 10px;
 }
 
-#footer {
-  font-size: 12px;
-   display: inline-block;
-   height: 70px;
-   width:100%;
-   background:#f2f2f2;
-}
